@@ -6,3 +6,4 @@ LABEL maintainer="balaji@example.com" \
 ENV environment="Dev" \
     date="13/08/26"
 ADD https://raw.githubusercontent.com/daws-86s/notes/refs/heads/main/session-52.txt /var/temp/52
+ADD ./sample-1.tar /var/temp/tar
