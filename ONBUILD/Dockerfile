@@ -1,3 +1,3 @@
-FROM almalinux:latest
-ONBUILD RUN dnf install -y nginx 
+FROM on:v1
+RUN dnf install -y nginx 
 CMD ["nginx", "-g", "daemon off;"]
