@@ -1,3 +1,5 @@
 ARG NGINX_VERSION=latest
 
 FROM nginx:${NGINX_VERSION}
+
+ENV version=${NGINX_VERSION}
